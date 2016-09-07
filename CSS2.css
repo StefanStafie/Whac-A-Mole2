@@ -1,7 +1,17 @@
 /*daca citesti asta, inseamna ca in urma a multor ani de de scoala ai invatat maiastra arta a cititului caracterelor de pa ecran a.k.a "citit";*/
+body{
+	margin-top:-30px;
+}
+.s{
+	text-align:center;
+	color:yellow;
+	font-family:cursive;
+	font-size:12px;
+}
 #replay{
-	margin-bottom:20px;
-	margin-left:100px;
+	padding-top:15px;
+	margin-left:10px;
+	display:none;
 	}
 #counter {
 	text-align:center;
@@ -10,16 +20,21 @@
 	position:inline;
 }
 #buttons{
+	padding-top:60px;
+	padding-bottom:-20px;
+	margin-bottom:-20px;
+	
 	height:140px;
-	width:330px;
+	width:120px;
 	margin:auto;
 	margin-top:-120px;
 }
 .button{
-	display: inline-block;
 	color:white;
 }
 #score{
+	margin-top:-20px;
+	margin-bottom:-6px;
 	text-align:center;
 	font-size:15px;
 	color:yellow;
@@ -42,6 +57,7 @@
 	margin-top:4px;
 	
 }
+
 #collumn{
 	height:120px;
 	width:120px;
@@ -91,43 +107,3 @@
 	top:240px;
 	left:232px;
 }
-
-/*
-#myimage1{
-	display:none;
-}
-#myimage2{
-	display:none;
-}
-#myimage3{
-	display:none;
-}
-#myimage4{
-	display:none;
-}
-#myimage5{
-	display:none;
-}
-#myimage6{
-	display:none;
-}
-#myimage7{
-	display:none;
-}
-#myimage8{
-	display:none;
-}
-#myimage9{
-	display:none;
-}
-
-div div div {
-	display:none;
-}
-
-#myimage1{
-	display:inline-block;
-	position:absolute;
-	
-}
-*/

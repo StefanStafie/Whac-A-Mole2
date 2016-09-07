@@ -17,22 +17,83 @@
 		<p id="score">Your Score: </p>
 		<div id="game" >
 			<div class="line" id="line1">
-				<div class="collumn" id="myimage1"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage2"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage3"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage1"><input type="image"  style="height:120px;width:120px;" draggable="false"  src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage2"><input type="image"  style="height:120px;width:120px;" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage3"><input type="image"  style="height:120px;width:120px;" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
 			</div>
 			<div class="line" id="line2">
-				<div class="collumn" id="myimage4"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage5"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage6"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage4"><input type="image"  style="height:120px;width:120px;" draggable="false" draggable="false" draggable="false" draggable="false" draggable="false" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage5"><input type="image"  style="height:120px;width:120px;" draggable="false" draggable="false" draggable="false" draggable="false" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage6"><input type="image"  style="height:120px;width:120px;" draggable="false" draggable="false" draggable="false" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
 			</div>
 			<div class="line" id="line3">
-				<div class="collumn" id="myimage7"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage8"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
-				<div class="collumn" id="myimage9"><input type="image"  style="height:120px;width:120px;" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg"></div>
+				<div class="collumn" id="myimage7"><input type="image"  style="height:120px;width:120px;" draggable="false" draggable="false" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage8"><input type="image"  style="height:120px;width:120px;" draggable="false" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg" /></div>
+				<div class="collumn" id="myimage9"><input type="image"  style="height:120px;width:120px;" draggable="false" src="http://i.dailymail.co.uk/i/pix/2016/03/15/00/00713D5900000258-3492468-image-m-29_1458001957367.jpg"></div>
 			</div>
 		</div>
-		
+		<p class="s">Made by 3Pitici Corporation</p>
+		<p class="s">Copyright: Absolutely inexistent rights reserved </p>
+		<p class="s">Tip: Clicking multiple times does count</p>
+
+		<script>
+		var square = ['#myimage1','#myimage2','#myimage3','#myimage4','#myimage5','#myimage6','#myimage7','#myimage8','#myimage9'];
+		var random = function() {
+   			 return Math.floor(Math.random()*9);
+		};
+
+
+		var i = 120;
+		var score = 0 ;
+		function loop () {         					 	
+   					setTimeout(function () {   							
+     					document.getElementById("time").innerHTML = Math.floor(i/2) ;
+						x = random();
+     					$(square[x]).fadeIn(250);
+     					$(square[x]).fadeOut(250);
+     					 						
+    					i--;                     							//  increment the counter
+    					if (i > 0) {						            	//  if the counter < 10, call the loop function
+        					loop();           						   	 	//  ..  again which will trigger another 
+      					}     
+      					           										//  ..  setTimeout()
+   					}, 300);
+				}
+
+		$(function () {
+    		$("#play").click(function () {
+    			score = 0;
+     			document.getElementById("score").innerHTML = "Your Score:" + score ;
+    			$("#replay").fadeIn(10);
+    			$("#play").fadeOut(10);
+    			$(".collumn").fadeOut(100);
+    			i = 120;
+    			loop ();
+    			
+    		});
+    	});
+
+
+    	$(function () {
+    		$(".collumn").click(function () {
+    			score++;
+    			document.getElementById("score").innerHTML = "Your Score:" + score ;
+    		});
+    	});
+
+    	$(function () {
+    		$("#replay").click(function () {
+    			alert("You scored: "+score+"points. You think you can do better?");
+    			location.reload();
+
+    		});
+    	});
+
+
+
+
+
+		</script>
 		<script type="text/javascript" src="jquery"></script>
 		<script type="text/javascript" src="JavaScript.js"></script>
 	</body>
