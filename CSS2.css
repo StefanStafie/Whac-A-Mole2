@@ -2,6 +2,9 @@
 body{
 	margin-top:-30px;
 }
+.collumn img{
+	border-radius: 50%;
+}
 .s{
 	text-align:center;
 	color:yellow;
